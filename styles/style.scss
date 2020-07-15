@@ -1,0 +1,522 @@
+// all google font cdn
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Ubuntu',sans-serif;
+    font-weight: 300;
+    outline: none;
+    line-height: 1.4;
+}
+
+button{
+    cursor: pointer;
+}
+
+// header styling
+header{
+   width: 100%;
+   height: 64px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+#logo{
+    padding: 0px 20px;
+}
+#user-panel{
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    div{
+        padding: 0 15px;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        border-left: 1px solid rgba(0, 0, 0, 0.151);
+        color: rgb(65, 65, 65);
+        font-weight: bold;
+        font-size: 12px;
+    }
+}
+
+
+
+// adress section 
+#address-section{
+    width: 100%;
+    height: 90vh;
+    padding-left: 104px;
+    padding-top: 144px;
+    box-sizing: border-box;
+    h1{
+        color: #333;
+        font-size: 2.5rem;
+        font-weight: 100;
+        display: inline-block;        
+    }
+}
+// input section
+#addres-div{
+    width: 900px;
+    display: flex;
+    padding: 18px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.144);
+    margin-top: 50px;
+    align-items: center;
+    background-color: white;
+    flex-wrap: wrap;
+}
+.address-input-div {
+    padding: 0 20px;
+    width: 500px;
+    border: 1px solid rgba(131, 131, 131, 0.363);
+    display: flex;
+    align-items: center;
+        input{
+        font-size: 1rem;
+        padding: 20px 0;
+        border: none;
+        width: 95%;
+        }
+}
+.address-button{
+    background-color: rgb(215,15,100);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px 35px;
+    border: none;
+    margin:  0 20px ;
+    font-size: 15px;
+    &:hover{
+       background-color: rgb(192, 10, 86); 
+       cursor: pointer;
+       transform: scale(1.02);
+    }
+}
+// background image styling
+.background-image{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    width: 600px;
+}
+// span quotes
+.partner-span{
+    font-size: 10rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(241, 241, 241, 0.74);
+    position: absolute;
+    bottom: 0;
+}
+.prepare-span{
+     font-size: 1.5rem;
+     color: rgb(68, 68, 68);
+     font-family:  'Arial Narrow';
+     position: absolute;
+     bottom: 60px;
+}
+
+
+// kitchen sectuion styling/
+#kitchen-section{
+    width: 100%;
+    position: relative;
+}
+#kitchen-image{
+    width: 100%;
+    position: relative;
+    height: 60vh;
+    overflow-y: hidden;
+    img{
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+}
+
+// Kitchen card styling
+#kitchen-card{
+    width: 500px;
+    padding: 30px;
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 5%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.37);
+    z-index: 2;
+    h4{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgba(36, 36, 36, 0.89);
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 1rem;
+        color:  #7e7e7e;
+        font-family: "Open Sans","MuseoSans",Arial,sans-serif ;
+    }
+    button{
+        @extend .address-button;
+        margin-left: 250px;
+        padding: 15px 60px;
+        cursor: pointer;
+    }
+}
+
+
+// Cities section styling
+#cities{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+    //  padding: 0px 70px;
+     box-sizing: border-box;
+     padding-top: 100px;
+     position: relative;
+}
+.city-bookmark{
+    font-size: 10rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(218, 218, 218, 0.445);
+    margin-left: 70px;
+}
+.city-quotes{
+    margin-left: 70px;
+    font-size: 1.5rem;
+    color: rgb(68, 68, 68);
+    font-family:  'Arial Narrow';
+    position: absolute;
+    top: 210px;
+}
+
+// cities all boxes container styling 
+#cities-container{
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    padding: 70px;
+    box-sizing:border-box;
+    justify-content: center;
+}
+.cites-boxes{
+    position: relative;
+    width: 200px;
+    height: 290px;
+    background-color: rgba(218, 218, 218, 0.445);
+    overflow: hidden;
+    cursor: pointer;
+    margin: 10px;
+    img{
+        width: 100%;
+        height: 100%;
+        transition: .5s;
+
+    }
+    .city-name{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        color: white;
+        font-family: 'Arial Narrow Bold', sans-serif;
+        font-size: 2rem;
+        z-index: 2;
+    }
+}
+.city-logo{
+    position: absolute;
+    font-size: 13rem;
+    bottom: -75px;
+    left: -15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 1;
+    color: rgba(215, 15, 98, 0.699);
+    display:none;
+}
+.cities-arrow-sign{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(215,15,100);
+    padding: 10px 15px ;
+    text-decoration: none;
+    color:white;
+    font-size: 1.5rem;
+    display: none;
+    z-index: 2;
+}
+.cites-boxes::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.212);
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.cites-boxes:hover img{
+        transform: scale(1.03);
+}
+.cites-boxes:hover .city-logo{
+        display: block;
+}
+.cites-boxes:hover .cities-arrow-sign{
+        display: block;
+}
+.cites-boxes:hover::after{
+    display: block;
+}
+
+
+// app sction styling 
+
+#app-section{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+}
+.app-Bokkmark{
+    font-size: 10rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(218, 218, 218, 0.205);
+    position: absolute;
+    top: 0;
+    left: 20px;
+    padding:0;
+    z-index: 1;
+}
+.app-quotes{
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.822);
+    position: absolute;
+    left: 20px;
+    top: 80px;
+    z-index: 2;
+}
+
+// app container styling
+#app-container{
+    position: absolute;
+    width: 100%;
+    top: 115px;
+    left: 0;
+    background-color: rgb(215,15,100);
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.app-text-area{
+    padding: 70px;
+    h2{
+        color: white;
+        font-size: 2rem;
+    }
+    p{
+        color: white;
+        font-size: 1.1rem;
+    }
+    .app-link{
+        border: 1px solid white;
+        padding: 30px 9px 6px 9px;
+        margin-left: 10px;
+    }
+
+}
+
+
+// food panda appilication pitcher stylung 
+.app-pic{
+    width: 500px;
+    height: auto;
+    position: absolute;
+    top: -80px;
+    right: 0;
+}
+
+// office sectio  styling
+
+#office-section{
+    width: 100%;
+    position: relative;
+}
+#office-image{
+    width: 100%;
+    position: relative;
+    height: 60vh;
+    overflow-y: hidden;
+    img{
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+}
+
+.office-Bokkmark{
+    font-size: 10rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.055);
+    position: absolute;
+    top: -120px;
+    left: 20px;
+    padding:0;
+    z-index: 1;
+}
+.office-quotes{
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.822);
+    position: absolute;
+    left: 20px;
+    top: -50px;
+    z-index: 2;
+}
+
+// Kitchen card styling
+#office-card{
+    width: 500px;
+    padding: 30px;
+    position: absolute;
+    background-color: white;
+    top: 70%;
+    left: 5%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.37);
+    z-index: 2;
+    h4{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgba(36, 36, 36, 0.89);
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 1rem;
+        color:  #7e7e7e;
+        font-family: "Open Sans","MuseoSans",Arial,sans-serif ;
+    }
+    button{
+        @extend .address-button;
+        margin-left: 250px;
+        padding: 15px 60px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+}
+
+// about section
+
+#about-section{
+   width: 100%;
+   margin-top: 200px;
+   padding:0px 70px;
+   box-sizing: border-box;
+   p{
+       color: rgb(104, 104, 104);
+        line-height: 1.5;
+   }
+   strong{
+       color: black;
+       font-family: "Open Sans","MuseoSans",Arial,sans-serif !important;
+   }
+   ul{
+       list-style: none;
+       margin-left: 20px;
+   }
+   hr{
+       margin: 20px 0;
+       border:.5px solid rgba(131, 131, 131, 0.096);
+   }
+}
+.bold-1{
+    font-size: 2rem;
+   font-family: "Open Sans","MuseoSans",Arial,sans-serif !important;
+}
+.bold-2{
+    font-size: 1.5rem;
+   font-family: "Open Sans","MuseoSans",Arial,sans-serif !important;
+}
+.bold-3{
+    font-size: 1.16rem;
+   font-family: "Open Sans","MuseoSans",Arial,sans-serif !important;
+}
+.pink-text{
+    color: rgb(215,15,100);
+    font-weight: bold;
+}
+
+// read more button styling
+#read-more-btn{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    color: black !important;
+    cursor:pointer;
+    transition: .3s;
+    &:hover{
+        background-color: rgba(0, 0, 0, 0.137);
+    }
+}
+#read-more-div{
+    display: none;
+}
+
+
+
+// footer section styling
+
+
+#footer-section{
+    width: 100%;
+    margin-top: 50px;
+    border-top: 1px solid rgba(0, 0, 0, 0.068);
+    box-sizing: border-box;
+    div{
+        box-sizing: border-box;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding:50px 70px ;
+    }
+}
+.footer-2-div{
+    border-top: 1px solid rgba(107, 43, 43, 0.068);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.068);
+
+    p{
+        width: 400px;
+        color: rgb(102, 102, 102);
+        word-spacing: 2px;
+        &:nth-child(2){
+            text-align: right;
+        }
+    }
+
+}
+.footer-3-div{
+    justify-content: center !important;
+    align-items: center;
+    text-align: center;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+// social media icon 
+.circle{
+    color: rgb(134, 134, 134);
+    font-size: 1.2rem;
+    margin: 3px;
+    border: 1px solid rgb(44, 37, 37);
+    border-radius: 50%;
+    padding: 6px 10px;
+    cursor: pointer;
+    &:hover{
+        color: rgb(215,15,100);
+         border: 1px solid rgb(215,15,100);
+
+    }
+}

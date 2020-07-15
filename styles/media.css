@@ -1,0 +1,237 @@
+@media screen and (max-width: 1140px) {
+  .app-text-area p {
+    width: 400px;
+  }
+  .app-pic {
+    top: 10px;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  #address-section {
+    padding-left: 20px;
+  }
+  .app-text-area p {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 964px) {
+  #addres-div {
+    margin-left: 20px;
+    width: 90vw;
+    padding: 20px 5px;
+  }
+  .address-input-div {
+    width: 50vw;
+  }
+  .address-button {
+    margin: 0 5px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .address-input-div {
+    width: 900px;
+  }
+  #addres-div {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 90vw;
+  }
+  #addres-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 5px 5px;
+  }
+  .address-button {
+    padding: 20px 15vw;
+    margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  #app-section {
+    height: 160vh;
+  }
+  #app-container {
+    height: 120vh;
+  }
+  .app-text-area {
+    margin-top: 400px;
+    width: 100%;
+  }
+  .app-text-area p {
+    width: 100%;
+  }
+  .app-pic {
+    left: 20%;
+  }
+  .background-image {
+    right: 0;
+    top: 200px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 638px) {
+  .app-pic {
+    left: 5%;
+  }
+  .partner-span {
+    font-size: 6rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #kitchen-card {
+    width: 80vw;
+  }
+  #kitchen-card button {
+    margin-left: 2vw;
+  }
+  #office-card {
+    width: 80vw;
+  }
+  #office-card button {
+    margin-left: 2vw;
+  }
+  .address-input-div {
+    width: 900px;
+  }
+  #addres-div {
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .app-pic {
+    left: 15vw;
+    width: 400px;
+  }
+  #about-section {
+    width: 100%;
+    margin-top: 200px;
+    padding: 0px 15px;
+  }
+  #footer-section {
+    width: 100%;
+  }
+  #footer-section div {
+    padding: 50px 20px;
+  }
+  .footer-2-div {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer-2-div p {
+    width: 100%;
+    text-align: center !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .app-pic {
+    left: 15vw;
+    width: 70vw;
+  }
+  #kitchen-card {
+    padding: 20px;
+    top: 30%;
+  }
+  #office-card {
+    padding: 20px;
+    top: 20%;
+  }
+  #address-section {
+    width: 100%;
+    height: 100vh;
+    padding-top: 40px;
+  }
+  .city-bookmark {
+    font-size: 8rem;
+    margin-left: 20px;
+  }
+  .office-Bokkmark {
+    font-size: 5rem;
+  }
+  .address-button {
+    padding: 20px 10vw;
+    margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .play-button {
+    position: relative;
+    top: 30px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .language {
+    display: none !important;
+  }
+  .user-logo {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .partner-span {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  #kitchen-card {
+    top: 5%;
+  }
+  .city-bookmark {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .partner-span {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 1238px) {
+  #cities-container {
+    padding: 20px;
+  }
+  .cites-boxes {
+    position: relative;
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 1118px) {
+  .cites-boxes {
+    position: relative;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 998px) {
+  .cites-boxes {
+    position: relative;
+    width: 350px;
+    height: 400px;
+  }
+}
+/*# sourceMappingURL=media.css.map */
