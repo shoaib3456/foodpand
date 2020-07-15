@@ -210,17 +210,18 @@
   }
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1024px) {
   #cities-container {
     width: 100%;
     padding: 40px;
     overflow-x: scroll;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    white-space: nowrap;
+    display: block;
   }
   .cites-boxes {
     position: relative;
     min-width: 200px;
+    display: inline-block;
   }
 }
 /*# sourceMappingURL=media.css.map */
