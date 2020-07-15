@@ -210,28 +210,17 @@
   }
 }
 
-@media screen and (max-width: 1238px) {
+@media screen and (max-width: 1020px) {
   #cities-container {
-    padding: 20px;
+    width: 100%;
+    padding: 40px;
+    overflow-x: scroll;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
   }
   .cites-boxes {
     position: relative;
-    width: 250px;
-  }
-}
-
-@media screen and (max-width: 1118px) {
-  .cites-boxes {
-    position: relative;
-    width: 300px;
-  }
-}
-
-@media screen and (max-width: 998px) {
-  .cites-boxes {
-    position: relative;
-    width: 350px;
-    height: 400px;
+    min-width: 200px;
   }
 }
 /*# sourceMappingURL=media.css.map */
